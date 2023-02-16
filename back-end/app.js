@@ -76,7 +76,7 @@ app.post('/messages/save', async (req, res) => {
       status: 'failed to save the message to the database',
     })
   }
-})
+});
 
 // export the express app we created to make it available to other modules
 module.exports = app // CommonJS export style!
